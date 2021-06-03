@@ -6,7 +6,6 @@ jobs:
    steps :
     - checkout
     - run : docker build -t app:latest .
-    - run : docker run app:latest --expose 80 ubuntu bash
     
   
     
