@@ -5,5 +5,5 @@ jobs:
      -image : unbuntu
    steps :
     - run :
-       command: docker build -it app:latest .
+       command: echo "this is dev environment"
        
