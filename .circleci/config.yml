@@ -1,0 +1,10 @@
+version: 2.1
+jobs:
+ build :
+   docker :
+     -image : unbuntu
+   steps :
+    - checkout
+    -run :
+       command: docker build -it app:latest .
+       
