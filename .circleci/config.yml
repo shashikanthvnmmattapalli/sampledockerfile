@@ -6,7 +6,7 @@ jobs:
    steps :
     - checkout
    # - run : docker build -t app:latest .
-    -run: echo "Testing"
+    - run: echo "Testing"
     
   
     
