@@ -2,8 +2,8 @@ version: 2.1
 jobs:
  build :
    machine:
-     -image : ubuntu:16.04
+    image: ubuntu-1604:202007-01
    steps :
-    - run :
-       command: echo "this is dev environment"
+    - checkout
+    - run : echo "this is dev environment"
        
