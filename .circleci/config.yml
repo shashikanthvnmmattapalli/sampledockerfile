@@ -4,7 +4,6 @@ jobs:
    docker :
      -image : unbuntu
    steps :
-    - checkout
-    -run :
+    - run :
        command: docker build -it app:latest .
        
