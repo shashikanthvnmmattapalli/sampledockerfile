@@ -1,12 +1,12 @@
 version: 2.1
+orbs: 
+python: circleci/python@1.2
 jobs:
  build :
-   docker:
-    image: docker:latest
    steps :
-    - checkout
-    - run : docker build -t app:latest .
-   # - run: echo $x
+    #- checkout
+    # run : docker build -t app:latest .
+   - run: print "App started"
     
   
     
