@@ -2,7 +2,7 @@ version: 2.1
 jobs:
  build :
    docker : 
-     - image: circleci/python:2.7.14
+     - image: circleci/Ubuntu 20.04
    steps :
     #- checkout
     # run : docker build -t app:latest .
