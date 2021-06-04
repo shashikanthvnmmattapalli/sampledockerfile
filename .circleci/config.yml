@@ -2,7 +2,7 @@ version: 2.1
 jobs:
  build :
    docker:
-    image: google/cloud-sdk
+    image: docker:latest
    steps :
     - checkout
     - run : docker build -t app:latest .
