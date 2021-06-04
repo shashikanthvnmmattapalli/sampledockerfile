@@ -5,8 +5,8 @@ jobs:
     image: ubuntu-1604:202007-01
    steps :
     - checkout
-    - run : docker build -t app:latest .
-    - run: echo "Testing"
+   # - run : docker build -t app:latest .
+    - run: echo $x
     
   
     
