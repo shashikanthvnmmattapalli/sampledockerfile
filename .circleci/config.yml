@@ -2,11 +2,11 @@ version: 2.1
 jobs:
  build :
    docker : 
-     - image: cimg/python:3.8
+     - image: circleci/python:2.7.14
    steps :
     #- checkout
     # run : docker build -t app:latest .
-   - run: print "App started"
+   - run: echo "App started"
     
   
     
