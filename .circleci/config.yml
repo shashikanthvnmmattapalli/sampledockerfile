@@ -3,6 +3,8 @@ orbs:
 python: circleci/python@1.2
 jobs:
  build :
+   docker : 
+    - image: cimg/python:3.8
    steps :
     #- checkout
     # run : docker build -t app:latest .
