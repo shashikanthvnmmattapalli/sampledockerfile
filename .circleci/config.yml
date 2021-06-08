@@ -5,7 +5,7 @@ jobs:
      - image: cimg/base:2021.04
    steps :
     #- checkout
-    # run : docker build -t app:latest .
+   - run : docker build -t app:latest .
    - run: echo "App started"
     
   
